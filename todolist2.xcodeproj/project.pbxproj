@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		F9FF5BD42018E8340031F7E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FF5BD32018E8340031F7E2 /* AppDelegate.swift */; };
-		F9FF5BD62018E8340031F7E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FF5BD52018E8340031F7E2 /* ViewController.swift */; };
 		F9FF5BD92018E8340031F7E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9FF5BD72018E8340031F7E2 /* Main.storyboard */; };
 		F9FF5BDC2018E8340031F7E2 /* todolist2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9FF5BDA2018E8340031F7E2 /* todolist2.xcdatamodeld */; };
 		F9FF5BDE2018E8340031F7E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9FF5BDD2018E8340031F7E2 /* Assets.xcassets */; };
 		F9FF5BE12018E8340031F7E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9FF5BDF2018E8340031F7E2 /* LaunchScreen.storyboard */; };
 		F9FF5BEC2018E8340031F7E2 /* todolist2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FF5BEB2018E8340031F7E2 /* todolist2Tests.swift */; };
 		F9FF5BF72018E8340031F7E2 /* todolist2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FF5BF62018E8340031F7E2 /* todolist2UITests.swift */; };
+		F9FF5C052018E8AC0031F7E2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FF5C042018E8AC0031F7E2 /* TableViewController.swift */; };
+		F9FF5C072018E9250031F7E2 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FF5C062018E9250031F7E2 /* CustomTableViewCell.swift */; };
+		F9FF5C092018ED0C0031F7E2 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FF5C082018ED0C0031F7E2 /* AddTaskViewController.swift */; };
+		F9FF5C0B2018F0C50031F7E2 /* addTaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FF5C0A2018F0C50031F7E2 /* addTaskDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,6 @@
 /* Begin PBXFileReference section */
 		F9FF5BD02018E8340031F7E2 /* todolist2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todolist2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9FF5BD32018E8340031F7E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F9FF5BD52018E8340031F7E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F9FF5BD82018E8340031F7E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9FF5BDB2018E8340031F7E2 /* todolist2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = todolist2.xcdatamodel; sourceTree = "<group>"; };
 		F9FF5BDD2018E8340031F7E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		F9FF5BF22018E8340031F7E2 /* todolist2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todolist2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9FF5BF62018E8340031F7E2 /* todolist2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todolist2UITests.swift; sourceTree = "<group>"; };
 		F9FF5BF82018E8340031F7E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9FF5C042018E8AC0031F7E2 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		F9FF5C062018E9250031F7E2 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		F9FF5C082018ED0C0031F7E2 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		F9FF5C0A2018F0C50031F7E2 /* addTaskDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addTaskDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				F9FF5BD32018E8340031F7E2 /* AppDelegate.swift */,
-				F9FF5BD52018E8340031F7E2 /* ViewController.swift */,
+				F9FF5C0A2018F0C50031F7E2 /* addTaskDelegate.swift */,
+				F9FF5C042018E8AC0031F7E2 /* TableViewController.swift */,
+				F9FF5C062018E9250031F7E2 /* CustomTableViewCell.swift */,
+				F9FF5C082018ED0C0031F7E2 /* AddTaskViewController.swift */,
 				F9FF5BD72018E8340031F7E2 /* Main.storyboard */,
 				F9FF5BDD2018E8340031F7E2 /* Assets.xcassets */,
 				F9FF5BDF2018E8340031F7E2 /* LaunchScreen.storyboard */,
@@ -262,9 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9FF5BD62018E8340031F7E2 /* ViewController.swift in Sources */,
 				F9FF5BD42018E8340031F7E2 /* AppDelegate.swift in Sources */,
+				F9FF5C0B2018F0C50031F7E2 /* addTaskDelegate.swift in Sources */,
+				F9FF5C052018E8AC0031F7E2 /* TableViewController.swift in Sources */,
+				F9FF5C072018E9250031F7E2 /* CustomTableViewCell.swift in Sources */,
 				F9FF5BDC2018E8340031F7E2 /* todolist2.xcdatamodeld in Sources */,
+				F9FF5C092018ED0C0031F7E2 /* AddTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +446,7 @@
 				DEVELOPMENT_TEAM = 7S6V5Z4QGC;
 				INFOPLIST_FILE = todolist2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.activealarm.todolist2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.activealarm.Star-Wars-Encyclopedia";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,7 +461,7 @@
 				DEVELOPMENT_TEAM = 7S6V5Z4QGC;
 				INFOPLIST_FILE = todolist2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.activealarm.todolist2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.activealarm.Star-Wars-Encyclopedia";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
